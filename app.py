@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("My Streamlit App")
 
-col1, col2 = st.column(2)
+col1, col2 = st.columns(2)
 
 with col1:
   st.header("Column 1")
